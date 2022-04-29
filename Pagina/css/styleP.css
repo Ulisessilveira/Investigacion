@@ -6,9 +6,7 @@
 		
 	}
 	body{
-		background: url(https://eldiariodelnoroeste.mx/cg/media/uploads/galeria/2021/01/04/20210104053946399-0-1748185.jpg);
-		background-size: 100vw 100vh;
-		align-items: center;
+		background-color: #ffffff;
 		font-family: 'Lato', sans-serif;
     	font-family: 'Roboto', sans-serif;
 	}
@@ -40,7 +38,7 @@
 		width: 100%;
 		height: 60px;
 		top: 0;left: 0;
-		position: fixed;
+		position: absolute;
     	background: #58146c
 	}
 	.nav-main{
@@ -174,3 +172,132 @@
 		font-size: 18px;
 	}
 	/*Fin de Menù lateral*/
+    /*Agregar arhivo*/
+    .cuadrado {
+        width: 80%;
+        height: 80%;
+        background-color: #fff4ec;
+        position: absolute;
+        left: 10%;
+        top: 10%;
+        border-radius: 10px;
+        border-color: black;
+        border-width: 1px;
+        border-style: solid;
+        box-shadow: 5px 5px 5px rgb(33, 31, 31);
+        padding: 40px;
+    }
+	.txt_general{
+		width: 100%;
+		border:2px solid #aaa;
+		border-radius: 4px;
+		margin:8px 0;
+		outline: none;
+		padding:8px;
+		box-sizing: border-box;
+	}
+	.lb_general{
+		padding: 10px;
+        font-size: 25px;
+		font-weight: bold;
+	}
+    /*Titulo*/
+    .titulo{
+        width: 100%;
+        height: 15%;
+		padding: 10px;
+        left: 10%;
+        top: 20%;
+	}
+    /*Titular*/
+    .titular{
+        width: 100%;
+        height: 15%;
+		padding: 10px;
+        left: 10%;
+        top: 20%;
+	}
+    /*Colaborador*/
+    .colabolador{
+        width: 100%;
+        height: 18%;
+		padding: 10px;
+        left: 10%;
+        top: 20%;
+	}
+
+    .si_no_colaborador {
+		position: absolute;
+        width:30px;
+		height:30px;
+		border:2px solid #aaa;
+		border-radius: 4px;
+		margin:8px 0;
+		outline: none;
+		padding:6px;
+		box-sizing: border-box;
+    }
+
+	.txt_colabolador_cantidad{
+		width: 60px;
+		border:2px solid #aaa;
+		border-radius: 4px;
+		margin:8px 0;
+		outline: none;
+		padding:6px;
+		box-sizing: border-box;
+		margin-left: 4em;
+	}
+
+    /*Descripcion*/
+    .descripcion{
+        width: 100%;
+        height: 22%;
+		padding: 10px;
+        left: 2%;
+        top: 35%;
+	}
+
+    /*Fecha*/
+    .fechas{
+        width: 100%;
+        height: 15%;
+		padding: 10px;
+        left: 2%;
+        top: 60%;
+		
+	}
+	
+	.txt_fecha{
+		width: 25%;
+		
+		border:2px solid #aaa;
+		border-radius: 4px;
+		margin:8px 0;
+		outline: none;
+		padding:8px;
+		box-sizing: border-box;
+	}
+
+    /*botones*/
+    .botones{
+        width: 100%;
+        height: 15%;
+		padding: 10px;
+        left: 10%;
+        top: 20%;
+
+        display: flex;
+        justify-content: center;
+	}
+	.botones button{
+		padding: 10px;
+		font-weight: bold;
+		background-color: #f0ad4e; 
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        margin: 4px 2px;
+	}

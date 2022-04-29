@@ -174,3 +174,93 @@
 		font-size: 18px;
 	}
 	/*Fin de Menù lateral*/
+
+    /*CUADRAO*/
+    .cuadrado {
+        width: 35%;
+        height: 40%;
+        background-color: #ffffff;
+        position: absolute;
+        left: 35%;
+        top: 20%;
+        border-radius: 10px;
+        border-color: black;
+        border-width: 1px;
+        border-style: solid;
+        box-shadow: 5px 5px 5px rgb(156, 153, 153);
+        padding: 40px;
+    }
+   
+	
+
+    /*correo*/
+    .correo{
+        width: 100%;
+        height: 10%;
+        position: absolute;
+        left: 2%;
+        top: 15%;
+	}
+    .correo h3{
+        padding: 10px;
+        font-size: 25px;
+    }
+	.correo input{
+		width: 80%;
+        position: absolute;
+		padding: 0 18px ;
+        margin-left: .6em;
+		font-size: 22px;
+		color: rgb(0, 0, 0);
+		outline: none;
+		border: 1px solid rgb(12, 12, 12);
+		border-radius: 5px;
+        box-shadow: 5px 5px 5px rgb(156, 153, 153);
+	}
+    /*contra*/
+    .contra{
+        width: 90%;
+        height: 10%;
+        position: absolute;
+        left: 2%;
+        top: 35%;
+	}
+    .contra h3{
+        padding: 10px;
+        font-size: 25px;
+    }
+	.contra input{
+		width: 80%;
+        position: absolute;
+		padding: 0 18px;
+        margin-left: .6em;
+		font-size: 22px;
+		color: rgb(0, 0, 0);
+		outline: none;
+		border: 1px solid rgb(12, 12, 12);
+		border-radius: 5px;
+        box-shadow: 5px 5px 5px rgb(156, 153, 153);
+	}
+
+  
+
+    /*botones*/
+    .botones{
+        width: 100%;
+        position: absolute;
+        left: 2%;
+        top: 70%;
+        display: flex;
+        justify-content: center;
+	}
+	.botones button{
+		background-color: #f0ad4e; 
+        color: white;
+        padding: 20px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+
+	}
